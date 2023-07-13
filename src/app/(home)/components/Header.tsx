@@ -54,7 +54,6 @@ const Header = () => {
             <Link href="/signup">Sign Up</Link>
           </button>
         </div>
-        <SidebarButton />
       </div>
     </header>
   );

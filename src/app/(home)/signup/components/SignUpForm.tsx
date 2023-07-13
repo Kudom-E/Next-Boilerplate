@@ -76,7 +76,7 @@ const SignUpForm = () => {
             required
             id="name"
             placeholder="Name"
-            className="w-full caret-inherit px-1 py-2 outline-transparent"
+            className="w-full caret-inherit px-1 py-2 outline-transparent bg-transparent"
             value={newUserInfo.name}
             onChange={(event) =>
               setNewUserInfo((newUserInfo) => ({
@@ -105,7 +105,7 @@ const SignUpForm = () => {
                 email: event.target.value,
               }))
             }
-            className="w-full caret-inherit px-1 py-2 outline-transparent"
+            className="w-full caret-inherit px-1 py-2 outline-transparent bg-transparent"
           ></input>
         </div>
       </div>
@@ -121,7 +121,7 @@ const SignUpForm = () => {
             type={passwordVisible}
             placeholder="Password"
             value={firstPassword}
-            className="w-full caret-inherit px-1 py-2 outline-transparent"
+            className="w-full caret-inherit px-1 py-2 outline-transparent bg-transparent"
             onChange={(event) => settingPassword("first", event.target.value)}
           ></input>
           {passwordVisible === "password" ? (
@@ -155,7 +155,7 @@ const SignUpForm = () => {
             placeholder="Confirm Password"
             value={confirmPassword}
             onChange={(event) => settingPassword("last", event.target.value)}
-            className="w-full caret-inherit px-1 py-2 outline-transparent"
+            className="w-full caret-inherit px-1 py-2 outline-transparent bg-transparent"
           ></input>
         </div>
         {!passwordConfirmed && (

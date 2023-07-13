@@ -87,7 +87,7 @@ const Tables = () => {
         </div>
       </div>
 
-      <div className="w-[100%] rounded-[6px] p-4 sm:py-10">
+      <div className="w-[100%] rounded-[6px] py-4 sm:py-10">
         <div className="border-[.5px] border-[rgba(var(--text-color-rgb),.5)] bg-[rgba(var(--secondary-color-rgb),1)] rounded-[6px] p-5">
           <div className="flex justify-between items-center px-2">
             <div className="text-[rgba(var(--text-color-rgb),1)]">

@@ -7,7 +7,7 @@ const Included = () => {
   return (
     <section className="h-[calc(100%-25px)]">
       <div className="h-[100%] flex justify-center items-center">
-        <ComingSoon />
+        <ComingSoon theHome="" />
       </div>
     </section>
   );

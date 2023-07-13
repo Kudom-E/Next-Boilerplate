@@ -46,7 +46,7 @@ const LoginForm = () => {
                 email: event.target.value,
               }))
             }
-            className="w-full caret-inherit px-1 py-2 outline-transparent"
+            className="w-full caret-inherit px-1 py-2 outline-transparent bg-transparent"
           ></input>
         </div>
       </div>
@@ -62,7 +62,7 @@ const LoginForm = () => {
             type={passwordVisible}
             placeholder="Password"
             value={oldUser.password}
-            className="w-full caret-inherit px-1 py-2 outline-transparent"
+            className="w-full caret-inherit px-1 py-2 outline-transparent bg-transparent"
             onChange={(event) =>
               setOldUser({ ...oldUser, password: event.target.value })
             }

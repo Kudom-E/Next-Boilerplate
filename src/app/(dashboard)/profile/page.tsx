@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <section className="h-[calc(100vh-11rem)] bg-[rgba(255,255,255,0.5)] backdrop-blur">
       <div className="h-[100%] flex justify-center items-center">
-        <ComingSoon />
+        <ComingSoon theHome="dashboard" />
       </div>
     </section>
   );
