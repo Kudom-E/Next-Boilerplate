@@ -2,7 +2,6 @@
 
 import React from "react";
 import Logo from "./Logo";
-import SidebarButton from "./SidebarButton";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
